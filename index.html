@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking</title>
+</head>
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+    input {
+        display: block;
+    }
+    span {
+        display: block;
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <a href="#add-vechile" class="nav-items">Add Vechile</a>
+        <a href="#add-employee" class="nav-items">Add Employee</a>
+        <a href="#give-feedback" class="nav-items">Give Feedback</a>
+        <a href="#pricing" class="nav-items">Pricing</a>
+    </nav>
+
+    <section class="covering-image-section"></section>
+    <section class="add-vechile-section" id="add-vechile">
+        <h1>Add a Vehicle</h1>
+        <form action="" class="forms add-vechile-form">
+            <input type="text" name="company" id="" placeholder="Company">
+            <input type="text" name="model" id="" placeholder="Model">
+            <input type="text" name="type" id="" placeholder="Type">
+            <input type="text" name="number" id="" placeholder="Vechile Number">
+            <input type="number" name="employeeId" id="" placeholder="Employee Id">
+            <textarea name="" id="" cols="30" rows="10" placeholder=" Color, Mark, Visible Accessory etc"></textarea>
+        </form>
+    </section>
+    <section class="add-employee-section" id="add-employee">
+        <h1>Add an Employee</h1>
+        <form action="" class="forms add-employee-form">
+            <input type="text" name="name" id="" placeholder="Full Name">
+            <select name="gender" id="">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">Others</option>
+            </select>
+            <input type="email" name="email" id="" placeholder="Email Id">
+            <input type="password" name="password" id="" placeholder="Password">
+            <input type="password" name="confirmPassword" id="" placeholder="Confirm Password">
+            <input type="number" name="phone" id="" placeholder="Phone Number">
+        </form>
+    </section>
+    <section class="give-feedback-section" id="give-feedback">
+        <form action="" class="forms give-feedback-form">
+            <h4>Get in touch</h4>
+            <input type="text" name="name" id="" placeholder="Name">
+            <input type="email" name="email" id="" placeholder="Email">
+            <input type="text" name="subject" id="" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        </form>
+    </section>
+    <section class="pricing-section" id="pricing">
+        <h1>Pricing</h1>
+        
+
+        <ul class="pricing-items-list">
+            <li class="pricing-item">
+                <span class="pricing-item-title">Cycle</span>
+                <span class="pricing-item-price">$100</span>
+                <span class="pricing-per-month">/month</span>
+                <span class="pricing-daily">$5 Daily</span>
+                <span class="pricing-monthly">$100 Monthly</span>
+                <span class="pricing-yearly">$500 Yearly</span>
+                <button class="pricing-item-purchase-button">PURCHASE NOW</button>
+            </li>
+
+            <li class="pricing-item">
+                <span class="pricing-item-title">MotorCycle</span>
+                <span class="pricing-item-price">$200</span>
+                <span class="pricing-per-month">/month</span>
+                <span class="pricing-daily">$10 Daily</span>
+                <span class="pricing-monthly">$200 Monthly</span>
+                <span class="pricing-yearly">$1000 Yearly</span>
+                <button class="pricing-item-purchase-button">PURCHASE NOW</button>
+            </li>
+
+            <li class="pricing-item">
+                <span class="pricing-item-title">Four Wheelers</span>
+                <span class="pricing-item-price">$500</span>
+                <span class="pricing-per-month">/month</span>
+                <span class="pricing-daily">$20 Daily</span>
+                <span class="pricing-monthly">$500 Monthly</span>
+                <span class="pricing-yearly">$3500 Yearly</span>
+                <button class="pricing-item-purchase-button">PURCHASE NOW</button>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
